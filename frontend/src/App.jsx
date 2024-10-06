@@ -10,7 +10,7 @@ import MessageField from "./components/MessageFIeld";
 function App() {
   return (
     <>
-    <div className="bg-black h-screen w-full text-white p-2">
+    <div className="bg-black h-full w-full text-white p-2">
       <Navbar />
       <MessageField/>
       <ChatBox/>

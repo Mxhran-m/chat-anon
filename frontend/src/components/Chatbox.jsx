@@ -4,7 +4,7 @@ import { LinkIcon } from "@heroicons/react/24/outline";
  
 export default function ChatBox() {
   return (
-    <div className="flex w-full flex-row items-center gap-2 rounded-[99px] border-2 bg-gray-900/5 p-2">
+    <div className="flex w-full flex-row items-center gap-2 rounded-[99px] border-2 bg-gray-900/5 p-2 fixed bottom-1 left-0">
       <div className="flex">
         <IconButton variant="text" className="rounded-full">
           <svg
@@ -43,7 +43,7 @@ export default function ChatBox() {
         rows={1}
         resize={false}
         placeholder="Your Message"
-        className="min-h-full !border-1 focus:border-transparent"
+        className="min-h-full !border-1 focus:border-transparent text-white"
         containerProps={{
           className: "grid h-full",
         }}
